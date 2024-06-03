@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+    border: 5px solid blue;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(orange, white ,green);
+    background-size: cover;
+    height: 100vh;
+}
+
+div h1{
+    font-size: 9rem; 
+   word-spacing: 2rem;
+  letter-spacing: 1rem; 
+ margin-left: 6%;
+  text-align: center;
+ color: transparent;
+ background-image: url(/animated\ bakcgrond.jpg);
+ background-size: contain;
+ background-clip: text;
+ -webkit-background-clip: text;
+ animation-name: Namaste;
+ animation-duration: 5s;
+ animation-delay: .5s;
+ animation-iteration-count: 1;
+ animation-fill-mode: none;
+ animation-timing-function: ease;
+} 
+@keyframes Namaste{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
